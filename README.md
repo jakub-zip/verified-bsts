@@ -1,7 +1,5 @@
 # verified-bsts
-Verified implementations of balanced binary search trees.
-Contains implementations of LLRB and AVL trees.
-This code was written during the creation of my bachelor's thesis.
+Verified implementations of balanced binary search trees. Contains implementations of LLRB and AVL trees. Uses the Scala programming language and the Stainless verifier. This code was written during the creation of my bachelor's thesis.
 
 To build the container, run:
 ```
