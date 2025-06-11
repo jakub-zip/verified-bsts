@@ -21,7 +21,7 @@ sealed abstract class Binary_tree {
     def content: Set[BigInt] = {
         this match {
             case Empty() => Set()
-            case Node(l, k, _, r) =>
+            case Node(l, k, r) =>
                 l.content ++ Set(k) ++ r.content
         }
     }
